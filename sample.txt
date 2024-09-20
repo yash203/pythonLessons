@@ -2,5 +2,5 @@ this text is from the sample.txt file
 thi is shibu@email yash@email
 this is the new line chinku@email
 this is third line
-
+adding this line to test the merge
 this is after the empty line
