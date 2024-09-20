@@ -1,1 +1,6 @@
 this text is from the sample.txt file
+thi is shibu@email yash@email
+this is the new line chinku@email
+this is third line
+
+this is after the empty line

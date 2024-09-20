@@ -20,7 +20,7 @@ print(A%B//A)
 #range(start, stop, step) - from start till one minus stop with hops in steps, step if -ve then reduces
 # start, stop, step all must be integers
 #for p in range(10, 3, -2):
- #   print(p)
+    #print(p)
 
 print('mina\neina\ndika')
 s="WELCOME"
@@ -28,6 +28,13 @@ print(s[0::2])
 
 #opening a file in read mode
 myfile = open("sample.txt","r")
-fileContents = myfile.read()
-print(fileContents)
+count = 0
+while fileContents := myfile.readlines():
+    print(fileContents)
+    for aword in fileContents:          
+        if '@email' in aword:
+            print(aword) 
+
+#print('number of emails in text file are ', count)
+#print('number of lines in file are', fileContents)
 myfile.close();
